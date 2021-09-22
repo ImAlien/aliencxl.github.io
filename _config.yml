@@ -4,8 +4,8 @@ SEOTitle: Alien的博客 | Alien's Blog
 header-img: img/home-bg.jpg
 email: alienchaoxl@gmail.com
 description: "这里是 Alien 的个人博客，与你一起发现更大的世界。"
-keyword: "个人网站, 互联网, Web, JavaScript, 前端, 设计"
-url: ""              # your host, for absolute URL
+keyword: "个人网站, 互联网"
+url: "aliencxl.xyz"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -13,10 +13,10 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
-twitter_username:   huxpro
+#weibo_username:     Alien
+#zhihu_username:     Alien
+github_username:    ImAlien
+#twitter_username:   Alien
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
 
@@ -59,7 +59,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: hux
+disqus_username: alien
 
 # Netease settings
 netease_comment: false
@@ -71,15 +71,15 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+#ga_domain: alien
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Alien，coding rookie"
-sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/siderbar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -101,5 +101,5 @@ page-mathjax: false
 
 
 # Friends
-#friends: [
+#friends: []
 
