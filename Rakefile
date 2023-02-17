@@ -20,6 +20,7 @@ task :post do
   title = ENV["title"] || "new-post"
   subtitle = ENV["subtitle"] || ""
   tag = ENV["tag"] || "未分类"
+  prefilename = ENV["file"] || ""
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
   begin
     date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%Y-%m-%d')
@@ -43,6 +44,12 @@ task :post do
     post.puts "header-img: \"img/post-bg-2015.jpg\""
     post.puts "tags: [#{tag}]"
     post.puts "---"
+	open(prefilename, "r") do |file_in|
+		# Read each line from a.txt and write it to b.txt
+		file_in.each_line do |line|
+		  post.write(line)
+		end
+	  end
   end
 end # task :post
 
