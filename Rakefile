@@ -51,6 +51,8 @@ task :post do
 		end
 	  end
   end
+  system "git add ."
+  system "git commit -m \"add #{title} \""
 end # task :post
 
 desc "Launch preview environment"
